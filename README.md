@@ -3,21 +3,34 @@ A simple and responsive movie rating website built using HTML and CSS. This proj
 
 The website features a modern UI, organized movie cards, and a structured design that adapts to different screen sizes. This project helped me strengthen my understanding of semantic HTML, CSS styling, flexbox layouts, and overall webpage structure.
 
-#🚀 Features
-Responsive design (mobile + desktop)
-Movie cards with posters, titles, and ratings
-Clean and modern UI
-Pure HTML & CSS (no frameworks)
-Beginner-friendly project
+#🚀 Features :
 
-#🛠️ Technologies Used
-HTML5
-CSS3 (Flexbox/Grid)
-#📌 Purpose
-This project was created to practice front-end fundamentals and improve website layout and design skills.
+-Responsive design (mobile + desktop)
 
-#🔮 Future Improvements
-Add JavaScript for dynamic ratings
-Store ratings using local storage or database
-Search and filter movies
-User login system
+-Movie cards with posters, titles, and ratings
+
+-Clean and modern UI
+
+-Pure HTML & CSS (no frameworks)
+
+-Beginner-friendly project
+
+#🛠️ Technologies Used :
+
+-HTML5
+
+-CSS3 (Flexbox)
+
+#📌 Purpose:
+
+-This project was created to practice front-end fundamentals and improve website layout and design skills.
+
+#🔮 Future Improvements :
+
+-Add JavaScript for dynamic ratings
+
+-Store ratings using local storage or database
+
+-Search and filter movies
+
+-User login system
