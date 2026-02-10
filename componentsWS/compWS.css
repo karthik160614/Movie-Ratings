@@ -22,8 +22,8 @@ body{
     gap: 30px;
 }
 .main-header img{
-  width:5vw;
-  height: 7vh;
+  width:30px;
+  height: 30px;
   border-radius:50%;
 }
 
@@ -39,7 +39,7 @@ body{
     color: white;
 }
 .left-h>nav>ul>li>.a1{
-    text-decoration: line-through;
+    text-decoration:none;
 }
 .left-h>nav>ul>li>a:hover{
     background-color:white;
@@ -96,21 +96,22 @@ body{
     gap: 4px;
 }
 @media  screen and (max-width:420px) {
-    .right-h>ul>li>a{
-        display: none;
-    }
     .hero-content video{
     width:300px;
     height: 200px;
     }
 }
 @media  screen and (max-width:620px) {
-    .right-h>ul>li>a{
+  
+    .right-h>ul>li>.a2{
         display: none;
     }
     .hero-content video{
     width:600px;
     height: 400px;
+    }
+    .hero-section{
+        justify-content: center;
     }
 }
 
@@ -126,12 +127,7 @@ body{
         align-items: center;
     }
 }
-@media  screen and (max-width:1000px) {
-    .hero-content video{
-    width:600px;
-    height: 300px;
-    }
-}
+
 @media  screen and (max-width:1360px) {
     .hero-content video{
     width:700px;
@@ -157,24 +153,23 @@ body{
         padding-left:10px;
     }
 }
-@media  screen and (max-width:620px) {
-    .right-h>ul>li>a{
-        display: none;
-    }
-    .hero-section{
-        justify-content: center;
-    }
-}
+
 @media  screen and (max-width:483px) {
         .left-h ul{
     display: flex;
-    gap:60px;
+    gap:35px;
 }
     .left-h>nav>ul>li>.a1{
         display: none;
     }
-    .right-h>ul>li>a{
+    .main-header{
+        gap:20px;
+    }
+    .right-h>ul>li>.a2{
         display: none;
+    }
+    .right-h{
+        padding-left: 0px;
     }
     .hero-section{
         justify-content: center;
@@ -186,24 +181,40 @@ body{
         align-items: center;
         justify-content: center;
     }
-   
-.right-h ul{
-    display: flex;
-    gap:50px;
-}
-.right-h li{
-    list-style: none;
-}
-.right-h>ul>li>a{
-    text-decoration: none;
-    color: white;
-}
     .hero-content video{
     width:310px;
     height: 210px;
     }
 }
+@media  screen and (max-width:397px) {
+  .left-h ul{
+        gap:30px;
+    }
+    .left-h>nav>ul>li>.a1{
+        display: none;
+    }
+    .main-header{
+        gap:20px;
+    }
+    .right-h>ul>li>.a2{
+        display: none;
+    }
+}
+@media  screen and (max-width:353px) {
 
+  .left-h ul{
+        gap:25px;
+    }
+    .left-h>nav>ul>li>.a1{
+        display: none;
+    }
+    .main-header{
+        gap:18px;
+    }
+    .right-h>ul>li>.a2{
+        display: none;
+    }
+}
 
 
 
