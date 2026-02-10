@@ -98,6 +98,7 @@ body{
 }
 .box:hover{
     transform: translateY(-5px);
+    transition: transform 0.3s ease;
 }
 
 .box:hover p{
@@ -235,4 +236,5 @@ body{
     .right-h>ul>li>.a2{
         display: none;
     }
+
 }
