@@ -38,6 +38,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.left-h>nav>ul>li>.a1{
+    text-decoration: line-through;
+}
 .left-h>nav>ul>li>a:hover{
     background-color:white;
     color: black;
@@ -57,10 +60,12 @@ body{
     text-decoration: none;
     color: white;
 }
+
 .hero-top{
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: white;
 }
@@ -83,6 +88,14 @@ body{
 .main-view>.box:hover{
     transform: translate(1px,-4px);
     transition: transform 1s ease;
+}
+.Ani{
+    display: flex;
+    gap:10px;
+    color: green;
+}
+.Ani:hover{
+    color: white;
 }
 .hero-movies{
    margin-left:4%;
@@ -188,6 +201,7 @@ body{
     .hero-section{
         justify-content: center;
     }
+
      .hero-movies{
         margin-left: 0%;
         display: flex;
@@ -242,6 +256,7 @@ body{
 }
 }
 @media  screen and (max-width:410px) {
+
 .main-view{
     width: 100%;
     height: 168px;

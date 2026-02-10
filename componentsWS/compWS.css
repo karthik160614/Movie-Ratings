@@ -38,6 +38,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.left-h>nav>ul>li>.a1{
+    text-decoration: line-through;
+}
 .left-h>nav>ul>li>a:hover{
     background-color:white;
     color: black;
@@ -163,6 +166,10 @@ body{
     }
 }
 @media  screen and (max-width:483px) {
+        .left-h ul{
+    display: flex;
+    gap:60px;
+}
     .left-h>nav>ul>li>.a1{
         display: none;
     }
