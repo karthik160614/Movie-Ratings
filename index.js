@@ -13,4 +13,3 @@ submit.onclick= function(){
     }
 }
 window.alert("Please enter password as karthik16 to continue");
-
