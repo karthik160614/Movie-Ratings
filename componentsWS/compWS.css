@@ -46,7 +46,9 @@ body{
     color: black;
     border-radius: 3px;
 }
-
+.right-h{
+    padding-left: 800px;
+}
 .right-h ul{
     display: flex;
     gap:50px;
@@ -217,6 +219,7 @@ body{
         display: none;
     }
 }
+
 
 
 
