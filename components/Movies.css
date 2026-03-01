@@ -66,6 +66,8 @@ body{
 }
 .hero-movies{
     margin-left: 4%;
+    transform: translateY(-10px);
+    transition: transform 2s ease;
 }
 .hero-movies h2{
     color: white;

@@ -60,13 +60,15 @@ body{
 }
 
 .hero{
-    margin-top: 6vh;
+    margin-top: 10vh;
     display: flex;
     margin-left: 5vw;
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
     gap:20px;
+    transform: translateY(-10px);
+    transition: transform 1s ease;
 }
 .hero h1{
     text-align: center;
