@@ -60,7 +60,9 @@ body{
     text-decoration: none;
     color: white;
 }
-
+.right-h>ul>li>a:hover{
+    color: green;
+}
 .hero{
     margin-top: 10vh;
     display: flex;
@@ -219,7 +221,6 @@ body{
         display: none;
     }
 }
-
 
 
 

@@ -9,7 +9,14 @@ body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.mLD{
+    display: flex;
+    justify-content: center;
+}
+.mL img{
+    width: 400px;
+    height: 400px;
+}
 .main-header{
     width: 100%;
     height: 8vh;
@@ -41,6 +48,7 @@ body{
 .left-h>nav>ul>li>.a1{
     text-decoration:none;
 }
+
 .left-h>nav>ul>li>a:hover{
     background-color:white;
     color: black;
@@ -65,43 +73,13 @@ body{
     color: green;
 }
 
-.hero-top{
-    margin-top:88vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    transform: translateY(-10px);
-    transition: transform 1s ease;
-}
-.hero-top h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-}
-.main-view{
-    height: 210px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    overflow-x:scroll;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    justify-content: center;
-    gap: 13px;
-}
-
-.main-view>.box:hover{
-    transform: translateY(-4px);
-    transition: transform 0.3s ease;
-}
-
 .hero-movies{
    margin-left:4%;
    transform: translateY(-10px);
     transition: transform 1s ease;
 }
-.hero-movies h2{
+.p6{
+    margin-left:60px;
     color: white;
     font-size:large;
 }
@@ -152,28 +130,28 @@ body{
     color: white;
     font-size:large;
 }
+.hero-scroll{
+    margin-left:50px;
+}
+.hero-scrollD{
+    width: 100%;
+  height:210px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:10px;
+  overflow-x:scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
 
-.im video{
-    width:100%;
-    height:600px;
-    object-fit:fill;
-    position:absolute;
-}
-.im img{
-    position:absolute;
-    margin-left:600px;
-    margin-top:370px;
-    width: 300px;
-    height:150px;
-}
 @media screen and (max-width:1300px){
-    .im img{margin-left: 0px;}
     .right-h{
         padding-left:350px;
     }
 }
 @media screen and (max-width:1000px){
-    .im img{margin-left: 0px;}
+
     .right-h{
         padding-left: 300px;
     }
@@ -184,29 +162,23 @@ body{
     }
 }
 @media screen and (max-width:700px){
-    .im img{margin-left: 0px;}
+    .p6{
+    margin-left:30px;
+    color: white;
+    font-size:large;
+}
     .right-h{
         padding-left:10px;
     }
 }
 @media  screen and (max-width:640px) {
-    .im video{
-    width: 100%;
-    height: 280px;
+    .mL img{
+        width:300px;
+        height: 300px;
     }
-.im img{
-    margin-left: 0px;
-    margin-top: 160px;
-    width: 100%;
-    height:80px;
-}
-.hero-top{
-    margin-top:290px;
-}
     .right-h>ul>li>.a2{
         display: none;
     }
-    .im img{margin-left: 0px;}
     .hero-section{
         justify-content: center;
     }
@@ -229,20 +201,27 @@ body{
     }
 }
 @media  screen and (max-width:483px) {
-    .im video{
-    width: 100%;
-    height: 240px;
+        .hero-scroll{
+    margin-left:20px;
+}
+.hero-scrollD{
+  height:168px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+    .p6{
+    margin-left:25px;
+    color: white;
+    font-size:large;
+}
+    .mL img{
+        width:200px;
+        height: 200px;
     }
-.im img{
-    margin-left: 0px;
-    margin-top: 120px;
-    width: 100%;
-    height:90px;
-}
-.hero-top{
-    margin-top:250px;
-}
-    .left-h ul{
+      .left-h ul{
         gap:35px;
     }
     .left-h>nav>ul>li>.a1{
@@ -300,7 +279,22 @@ body{
 }
 }
 @media  screen and (max-width:410px) {
-
+    .hero-scroll{
+    margin-left:20px;
+}
+.hero-scrollD{
+  height:168px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.p6{
+    margin-left:20px;
+    color: white;
+    font-size:large;
+}
 .main-view{
     width: 100%;
     height: 168px;
@@ -323,19 +317,21 @@ body{
 }
 }
 @media  screen and (max-width:397px) {
-.im video{
-    width: 100%;
-    height: 240px;
+    .hero-scroll{
+    margin-left:20px;
+}
+.hero-scrollD{
+  height:168px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.mL img{
+        width:200px;
+        height: 200px;
     }
-.im img{
-    margin-left: 0px;
-    margin-top: 120px;
-    width: 100%;
-    height:90px;
-}
-.hero-top{
-    margin-top:250px;
-}
   .left-h ul{
         gap:30px;
     }

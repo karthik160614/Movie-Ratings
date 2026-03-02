@@ -60,7 +60,9 @@ body{
     text-decoration: none;
     color: white;
 }
-
+.right-h>ul>li>a:hover{
+    color: green;
+}
 .hero{
     margin-top: 10vh;
     display: flex;
@@ -191,6 +193,7 @@ body{
     }
 }
 @media  screen and (max-width:397px) {
+
   .left-h ul{
         gap:30px;
     }
@@ -219,4 +222,3 @@ body{
         display: none;
     }
 }
-
