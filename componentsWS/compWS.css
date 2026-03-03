@@ -97,9 +97,15 @@ body{
     width:200px;
     display: flex;
     flex-direction: column;
-    align-items:start;
     flex-wrap: wrap;
     gap: 4px;
+}
+.tagP{
+    text-align: center;
+    color: gray;
+}
+.rate{
+    text-align: center;
 }
 @media  screen and (max-width:420px) {
     .hero-content video{
@@ -187,18 +193,12 @@ body{
         align-items: center;
         justify-content: center;
     }
-    
-.hero-content video{
-    margin-top:-35px;
+    .hero-content video{
     width:310px;
     height: 210px;
-}
+    }
 }
 @media  screen and (max-width:397px) {
-    
-.hero-content video{
-    margin-top:-20px;
-}
   .left-h ul{
         gap:30px;
     }
@@ -227,7 +227,6 @@ body{
         display: none;
     }
 }
-
 
 
 
