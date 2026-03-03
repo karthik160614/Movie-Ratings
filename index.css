@@ -76,29 +76,20 @@ body{
     color: green;
 }
 
-.hero-movies{
-   margin-left:4%;
-   transform: translateY(-10px);
-    transition: transform 1s ease;
-}
+
 .p6{
     margin-left:60px;
     color: white;
     font-size:large;
 }
-.hero-section{
-    display: flex;
-    align-items: center;
-    justify-content:start;
-    flex-wrap: wrap;
-    gap:10px;
-}
+
 .box{
     width:140px;
     height:210px;
-    border-radius:10px;
+    border-radius:7px;
     position: relative;
     overflow: hidden;
+    flex-shrink: 0;
     transition: transform 0.5s ease;
 }
 .box img{
@@ -128,15 +119,7 @@ body{
     border-radius:3px;
     transition: all 0.5s ease;
 }
-.hero-Series{
-    margin-left: 4%;
-    transform: translateY(-10px);
-    transition: transform 1s ease;
-}
-.hero-Series h2{
-    color: white;
-    font-size:large;
-}
+
 .hero-scroll{
     margin-left:50px;
 }
@@ -144,8 +127,7 @@ body{
     width: 100%;
   height:210px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
   gap:10px;
   overflow-x:scroll;
   scrollbar-width: none;
@@ -201,26 +183,6 @@ height:285px;
     .right-h>ul>li>.a2{
         display: none;
     }
-    .hero-section{
-        justify-content: center;
-    }
-     .hero-movies{
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero-Series{
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero-section{
-        justify-content: center;
-    }
 }
 @media  screen and (max-width:483px) {
     .mLD{
@@ -264,27 +226,6 @@ height:285px;
     .right-h>ul>li>.a2{
         display: none;
     }
-    .hero-section{
-        justify-content: center;
-    }
-     .hero-movies{
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero-Series{
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .hero-section{
-        justify-content: center;
-    }
-   
 }
 
 @media  screen and (max-width:440px) {
