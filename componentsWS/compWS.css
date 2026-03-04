@@ -107,6 +107,11 @@ body{
 .rate{
     text-align: center;
 }
+.e1{
+    color: gray;
+    font-size:15px;
+    font-weight:50;
+}
 @media  screen and (max-width:420px) {
     .hero-content video{
     width:300px;

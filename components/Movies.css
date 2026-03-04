@@ -4,7 +4,7 @@
 }
 body{
     width: 100%;
-    height: 150vh;
+    height:150vh;
     box-sizing: border-box;
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -104,11 +104,16 @@ body{
     transition: transform 0.5s ease;
 }
 .box p{
+    height:30%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border-radius:3px;
     text-align: center;
     position: absolute;
     width: 100%;
-    bottom:-50px;
-    transition: transform 0.7s ease;
+    transform:translateY(50px);
+    transition: transform 0.5s ease;
 }
 .box:hover{
     transform: translateY(-5px);
@@ -116,12 +121,8 @@ body{
 }
 
 .box:hover p{
-    bottom:-2px;
-    background-color: black;
-    color: white;
-    opacity: 0.7;
-    border-radius:3px;
-    transition: all 0.5s ease;
+    transform:translateY(-65px);
+    transition: transform 0.5s ease;
 }
 
 .im video{
@@ -303,7 +304,7 @@ body{
     .box{
     width:108px;
     height:168px;
-    border-radius: 4%;
+    border-radius:5px;
     position: relative;
     overflow: hidden;
 }
@@ -357,6 +358,20 @@ body{
     }
     .main-header{
         gap:20px;
+    }
+    .right-h>ul>li>.a2{
+        display: none;
+    }
+}
+@media  screen and (max-width:369px) {
+  .left-h ul{
+        gap:25px;
+    }
+    .left-h>nav>ul>li>.a1{
+        display: none;
+    }
+    .main-header{
+        gap:18px;
     }
     .right-h>ul>li>.a2{
         display: none;
