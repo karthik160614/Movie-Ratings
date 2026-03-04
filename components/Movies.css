@@ -38,6 +38,7 @@ body{
     text-decoration: none;
     color: white;
 }
+
 .left-h>nav>ul>li>.a1{
     text-decoration:none;
 }
@@ -159,6 +160,16 @@ body{
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
+.fav{
+    position: absolute;
+    color:rgb(113, 168, 2);
+    top:3px;
+    right: 3px;
+}
+
+.fav>i:hover{
+    color: yellow;
+}
 @media screen and (max-width:1300px){
     .im img{margin-left: 0px;}
     .im  .c5{margin-left: 0px;}
@@ -272,7 +283,6 @@ body{
     color: white;
 }
 }
-
 @media  screen and (max-width:440px) {
 .main-view{
     width: 100%;
@@ -311,6 +321,13 @@ body{
 .box img{
     width:108px;
     height:168px;
+}
+.box:hover p{
+    transform:translateY(-67px);
+    transition: transform 0.5s ease;
+}
+.box p{
+    height:65px;
 }
 }
 @media  screen and (max-width:397px) {

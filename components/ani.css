@@ -312,6 +312,13 @@ body{
     width:108px;
     height:168px;
 }
+.box:hover p{
+    transform:translateY(-67px);
+    transition: transform 0.5s ease;
+}
+.box p{
+    height:65px;
+}
 }
 @media  screen and (max-width:397px) {
       .hero-scroll{

@@ -51,7 +51,12 @@ body{
 .left-h>nav>ul>li>.a1{
     text-decoration:none;
 }
-
+.left-h>nav>ul>li>i{
+    color:rgb(113, 168, 2);
+}
+.left-h>nav>ul>li>i:hover{
+    color:yellow;
+}
 .left-h>nav>ul>li>a:hover{
     background-color:white;
     color: black;
@@ -113,9 +118,7 @@ body{
     transform: translateY(-5px);
     transition: transform 0.5s ease;
 }
-.box:hover div{
-    background-color: rgb(34, 31, 31,0.546);
-}
+
 .box:hover p{
     transform:translateY(-65px);
     transition: transform 0.5s ease;
@@ -142,6 +145,15 @@ body{
   width:460px;
 height:285px;
   transition:all 0.5s ease;
+}
+.fav{
+    position: absolute;
+    color:rgb(113, 168, 2);
+    top:3px;
+    right:3px;
+}
+.fav>i:hover{
+    color: yellow;
 }
 @keyframes rightS{
    0%{
@@ -290,10 +302,24 @@ height:285px;
     height: 171px;
     transition: all 0.6s ease;
 }
+.box:hover p{
+    transform:translateY(-67px);
+    transition: transform 0.5s ease;
+}
+.box p{
+    height:65px;
+}
 }
 @media  screen and (max-width:397px) {
     .hero-scroll{
     margin-left:20px;
+}
+.box:hover p{
+    transform:translateY(-67px);
+    transition: transform 0.5s ease;
+}
+.box p{
+    height:65px;
 }
 .hero-scrollD{
   height:168px;
@@ -303,7 +329,9 @@ height:285px;
   overflow-x: scroll;
   scrollbar-width: none;
 }
-
+.left-h>nav>ul>li>i{
+      margin-left:-35px;
+}
   .left-h ul{
         gap:30px;
     }
