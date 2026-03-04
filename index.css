@@ -204,7 +204,7 @@ height:285px;
     margin-left:20px;
 }
 .hero-scrollD{
-  height:168px;
+  height:191px;
   display: flex;
   flex-wrap: wrap;
   gap:10px;
@@ -242,6 +242,7 @@ height:285px;
     position: relative;
     overflow: hidden;
 }
+
 .box img{
     width:130px;
     height:190px;
