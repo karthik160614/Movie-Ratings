@@ -148,10 +148,11 @@ height:285px;
 }
 .fav{
     position: absolute;
-    color:rgb(113, 168, 2);
+    color: white;
     top:3px;
-    right:3px;
+    right: 3px;
 }
+
 .fav>i:hover{
     color: yellow;
 }

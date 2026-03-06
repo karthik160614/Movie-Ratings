@@ -162,7 +162,7 @@ body{
 }
 .fav{
     position: absolute;
-    color:rgb(113, 168, 2);
+    color: white;
     top:3px;
     right: 3px;
 }
@@ -329,6 +329,7 @@ body{
 .box p{
     height:65px;
 }
+
 }
 @media  screen and (max-width:397px) {
       .hero-scroll{
